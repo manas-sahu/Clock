@@ -44,7 +44,7 @@ body.light .clock {
   position: absolute;
   width: 15px;
   height: 15px;
-  background: whitesmoke;
+  background: #008eff;
   border-radius: 50%;
   z-index: 1000;
 }
