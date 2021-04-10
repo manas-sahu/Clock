@@ -18,15 +18,11 @@ setInterval(() => {
   sc.style.transform = `rotatez(${sec}deg)`;
 }, 1000);
 
-function toggleTheme () {
-    console.log("Toggle called");
-    toggle = !toggle;
-    if (toggle) {
-        body.classList.add("light");
-    }
-    else {
-        body.classList.remove("light");
-    }
-    
-    
+function toggleTheme() {
+  toggle = !toggle;
+  if (toggle) {
+    body.classList.add("light");
+  } else {
+    body.classList.remove("light");
+  }
 }
