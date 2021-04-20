@@ -24,9 +24,9 @@ function setClock() {
 
 function toggleTheme() {
   toggle = !toggle;
-  if (toggle) {
-    body.classList.add("light");
-  } else {
-    body.classList.remove("light");
-  }
+  // if (toggle) {
+    body.classList.toggle("light", toggle);
+  // } else {
+  //   body.classList.remove("light");
+  // }
 }
