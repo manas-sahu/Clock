@@ -1,5 +1,5 @@
 # Clock
-Designing a clock using HTML and CSS
+Designing a simple and elegant clock using HTML and CSS
 
 #Hosted @ https://manas-sahu.github.io/Clock/
 
